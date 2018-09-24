@@ -3,7 +3,8 @@ module.exports = function main(str) {
     var arr=str.split('');
     var sum=0;
     for(var i=0;i<arr.length;i++){
-        sum+=arr[i];
+        var t=parseInt(arr[i]);
+        sum+=t;
     }
     return sum;
 };
